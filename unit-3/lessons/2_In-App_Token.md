@@ -329,7 +329,7 @@ public fun remove_item_price(
 }
 ```
 
-### Homework
+### Assignment
 Read the [`Token` standard](https://docs.sui.io/standards/closed-loop-token) and the [source code of `sui::token`](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/packages/sui-framework/sources/token.move).  
 Based on the example code of this section, create a new `TokenPolicy` that supports `token::to_coin`. When the `Profile` points reach 100, it supports converting all held `Token<APP>` to `Coin<APP>`, and each conversion will reset the `Profile` points to zero.  
 Both `app_token.move` and `profile.move` modules need to add new code, and the `TokenPolicy` that supports `token::to_coin` needs to be wrapped.

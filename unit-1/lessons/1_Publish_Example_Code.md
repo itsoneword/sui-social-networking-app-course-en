@@ -44,5 +44,5 @@ Commonly used Sui explorers include:
 - [SuiScan](https://suiscan.xyz/)
 - [PolyMedia](https://explorer.polymedia.app/)
 
-### Homework
+### Assignment
 Deploy the Sui development environment on your computer, download the [counter project code](../example_projects/counter/), publish the contract on the testnet with your own account, record and save the publication result locally, and open the contract address on the explorer.

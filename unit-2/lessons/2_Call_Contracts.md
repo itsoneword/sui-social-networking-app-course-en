@@ -147,5 +147,5 @@ The use of `devInspect` requires writing read functions in the contract in advan
 
 The [getobject example program](../example_projects/getobject.ts) provides a method for directly querying the attributes of an Object based on the Object ID.
 
-### Homework
+### Assignment
 Republish the contract, and then use the client functions mentioned in this section to write a TypeScript script for calling functions and reading data.

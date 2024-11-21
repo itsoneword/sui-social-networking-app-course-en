@@ -1,1 +1,1 @@
-# Unit 1 Sui Move Smart Contract Express Course
+# Unit 1 Sui Move Smart Contract Quickstart

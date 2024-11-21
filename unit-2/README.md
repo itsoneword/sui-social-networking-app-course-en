@@ -1,1 +1,1 @@
-# Unit 2 Basic Knowledge of TypeScript SDK
+# Unit 2 TypeScript Basics

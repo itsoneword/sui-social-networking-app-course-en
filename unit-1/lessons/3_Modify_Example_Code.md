@@ -72,7 +72,7 @@ If the Object's data only belongs to an individual account, it will only be oper
 As for Objects owned by other Objects, they are processed according to the type of the top-level Object.
 Sui Move smart contracts will classify according to the type of function input parameters when executing, choosing different execution efficiencies. When designing contracts, you can choose a better solution according to the needs.
 
-### Homework One
+### Assignment One
 Rewrite the [counter](../example_projects/counter/sources/counter.move) project code to generate a shared ownership `Counter`, and then use different account addresses to call the counter.
 
 ## Event
@@ -117,7 +117,7 @@ After adding these Event features, when executed again, you can see the Event re
 
 ![event](../images/explorer04.png)
 
-### Homework Two
+### Assignment Two
 
 In the [counter_event](../example_projects/counter_event/sources/counter_event.move) sample code, add Event functionality for `mint`, `burn` respectively.
 
@@ -223,7 +223,7 @@ module book::drop_ability {
 
 [Reference material](https://move-book.com/move-basics/drop-ability.html) provides more basic data structures with `drop` capability. 
 
-### Homework Three
+### Assignment Three
 
 Define a Profile NFT that can be minted and sent to any address.
 The Profile data structure includes the username handle and points

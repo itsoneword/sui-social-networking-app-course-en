@@ -87,7 +87,7 @@ public fun mint(
 ```
 Here, `table::add<String, bool>(&mut handle_record.record, handle, true);` will fail to add and roll back the program execution if there is a duplicate `handle`; the `true` boolean value is just a placeholder and has no actual meaning.
 
-### Homework
+### Assignment
 
 When checking for duplicate registrations, not only should `handle` be deduplicated, but also `address`. Based on the example code in this section, add an additional data structure for checking `address` duplicates. Prohibit registered `handle` and `address` from registering again.
 
@@ -99,7 +99,7 @@ On Sui, any Object has a data storage limit. Both `VecMap` and `VecSet` are buil
 
 However, `Table` and `TableVec` create new data as individual Objects when adding new data, and then bind the ownership of the newly added data to `Table` or `TableVec` using the [dynamic_field](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/packages/sui-framework/sources/dynamic_field.move) dynamic attribute. This supports these two data structures to add data without limits.
 
-### Homework
+### Assignment
 
 Read the source code of these data structures:
 - [VecMap](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/packages/sui-framework/sources/vec_map.move) 
