@@ -1,6 +1,6 @@
 # Call Contracts
 
-When calling contracts, the most commonly used feature is `sui client`. You can first briefly [browse the source code](https://github.com/MystenLabs/sui/blob/main/sdk/typescript/src/client/client.ts). This section will go through the commonly used features.
+When calling contracts, the most commonly used feature is `sui client`. You can first briefly [browse the source code](https://github.com/MystenLabs/ts-sdks/blob/main/packages/typescript/src/client/client.ts). This section will go through the commonly used features.
 
 Let's first publish the [example code](../../unit-1/example_projects/profile_clock/sources/profile_clock.move) from the last lesson to the testnet. For the convenience of learning, a version has been published directly here [published version](https://explorer.polymedia.app/object/0xf88ed6fdffa373a09a1a54fbad1ac4730219142f7fa798bdcf632d5f159e4a18?network=testnet) for everyone to call. The testnet package ID is `0xf88ed6fdffa373a09a1a54fbad1ac4730219142f7fa798bdcf632d5f159e4a18`.
 
