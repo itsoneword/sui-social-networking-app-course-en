@@ -7,6 +7,8 @@ This course is a project-based learning course aimed at developers with programm
     - [Publish Example Contract](./unit-1/lessons/1_Publish_Example_Code.md)
     - [Read Example Code](./unit-1/lessons/2_Read_Example_Code.md)
     - [Modify Example Code](./unit-1/lessons/3_Modify_Example_Code.md)
+Finished 1st part of edu. 
+0x266709c22e5c5c7cdad3f191d04d55b82e6cd5011150f8a74cae899939ac0929
 - **Unit 2: TypeScript Basics**
     - [Prepare Development Environment](./unit-2/lessons/1_Prepare_Development_Environment.md)
     - [Call Contracts](./unit-2/lessons/2_Call_Contracts.md)
