@@ -1,6 +1,7 @@
 module profile_clock::profile_clock {
     use std::string::String;
     use sui::clock::Clock;
+    //SUI's clock is on 0x6 address 
 
     const ONE_HOUR_IN_MS: u64 = 60 * 60 * 1000;
 
@@ -51,3 +52,5 @@ module profile_clock::profile_clock {
 
 }
 
+//tested, successfully minted, increased and burned. 
+// tested address 0x266709c22e5c5c7cdad3f191d04d55b82e6cd5011150f8a74cae899939ac0929
